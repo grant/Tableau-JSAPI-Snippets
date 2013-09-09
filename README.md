@@ -24,5 +24,8 @@ Use git to install the snippets with the following commands:
 
 Remember
 --------
-
 * Disable this snippet pack when not in use (and enable when in use). It is quite verbose and will disrupt normal javascript work that doesn't not deal with the API. You can disable/enable packages via Tools > Command Pallete > 'Enable Package' | 'Disable Package'
+
+Contribute
+----------
+Not all the snippets are fully complete and not all the functionality of Tableau's JSAPI is documented here. If you'd like to contribute, feel free to send me a pull request. Remember to update both completion files (the ones with and without comments) concurrently and make sure they are sync'd.
