@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+applyRelativeDateFilterAsync(
+	${1:"Region"},
+	${2:options}
+);$0
+]]></content>
+	<tabTrigger>applyRelativeDateFilterAsync</tabTrigger>
+	<scope>source.js</scope>
+	<description>activeSheet.applyRelativeDateFilterAsync(field, options)</description>
+</snippet>

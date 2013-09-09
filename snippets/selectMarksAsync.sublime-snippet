@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+selectMarksAsync(
+	${1:"Region"},
+	${2:"Asia"},
+	${3:tableauSoftware.SelectionUpdateType.REPLACE}
+);$0
+]]></content>
+	<tabTrigger>selectMarksAsync</tabTrigger>
+	<scope>source.js</scope>
+	<description>activeSheet.selectMarksAsync(field, filter, selectionType)</description>
+</snippet>

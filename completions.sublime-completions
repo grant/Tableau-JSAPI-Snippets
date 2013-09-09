@@ -1,0 +1,222 @@
+{
+	"scope": "source.js",
+	"completions": [
+		"tableauSoftware",
+
+		"getPublishedSheetsInfo()",
+		"getVizs()",
+
+		// Viz Class
+		"getAreTabsHidden()",
+		"getIsToolbarHidden()",
+		"getIsHidden()",
+		"getParentElement()",
+		"getUrl()",
+		"getWorkbook()",
+		"getAreAutomaticUpdatesPaused()",
+
+		"show()",
+		"hide()",
+		"dispose()",
+		"pauseAutomaticUpdatesAsync()",
+		"resumeAutomaticUpdatesAsync()",
+		"toggleAutomaticUpdatesAsync()",
+		"revertAllAsync()",
+		"refreshDataAsync()",
+		"showShareDialog()",
+
+		"TOP",
+		"BOTTOM",
+
+		// TableauEventName Enum
+		"CUSTOM_VIEW_LOAD",
+		"CUSTOM_VIEW_REMOVE",
+		"CUSTOM_VIEW_SAVE",
+		"CUSTOM_VIEW_SET_DEFAULT",
+		"FILTER_CHANGE",
+		"MARKS_SELECTION",
+		"PARAMETER_VALUE_CHANGE",
+		"TAB_SWITCH",
+
+		// TableauEvent Class, CustomViewEvent Class
+		"getViz()",
+		"getEventName()",
+
+		// FilterEvent Class
+		"getWorksheet()",
+		"getFieldName()",
+		"getFilterAsync()",
+		"getMarksAsync()",
+
+		// ParameterEvent
+		"getParameterName()",
+		"getParameterAsync()",
+
+		// TabSwitchEvent Class
+		"getOldSheetName()",
+		"getNewSheetName()",
+
+		// Workbook Class
+		"getActiveSheet()",
+		"getActiveCustomView()",
+		"getPublishedSheetsInfo()",
+		"getName()",
+		"getParametersAsync()",
+		"getCustomViewsAsync()",
+		"setActiveCustomViewAsDefaultAsync()",
+
+		// Data Source Class
+		"getIsPrimary()",
+		"getFields()",
+
+		// Field Class
+		"getAggregation()",
+		"getDataSource()",
+		"getRole()",
+
+		// Custom View Class
+		"getName()",
+		"setName()",
+		"getAdvertised()",
+		"setAdvertised()",
+		"getDefault()",
+		"getOwnerName()",
+		"saveAsync()",
+
+		// Sheet Info
+		"getIndex()",
+		"getIsActive()",
+		"getSheetType()",
+		"getSize()",
+
+		// Worksheet Class
+		"getParentDashboard()",
+		"getDataSourcesAsync()",
+
+		// Dashboard Class
+		"getObjects()",
+		"getWorksheets()",
+
+		// DashboardObject Class
+		"getObjectType()",
+		"getDashboard()",
+		"getPosition()",
+
+		// Parameter Class
+		"getCurrentValue()",
+		"getDataType()",
+		"getAllowableValuesType()",
+		"getAllowableValues()",
+		"getMinValue()",
+		"getMaxValue()",
+		"getStepSize()",
+		"getDateStepPeriod()",
+
+		// FilterOptions Record
+		"isExcludeMode()",
+		"nullOption",
+
+		// RelativeDateFilterOptions Record
+		"anchorDate",
+		"periodType",
+		"rangeType",
+		"rangeN",
+
+		// Filter Class
+		"getFilterType()",
+
+		// NullOption Enum
+		"NULL_VALUES",
+		"NON_NULL_VALUES",
+		"ALL_VALUES",
+
+		// CategoricalFilter Class
+		"getIsExcludeMode()",
+		"getAppliedValues()",
+
+		// QuantitativeFilter Class
+		"getDomainMinValue()",
+		"getDomainMaxValue()",
+		"getMinValue()",
+		"getMaxValue()",
+		"getIncludeNullValues()",
+
+		// RelativeDataFilter Class
+		"getPeriod()",
+		"getRange()",
+		"getRangeN()",
+
+		// FilterType Enum
+		"CATEGORICAL",
+		"QUANTITATIVE",
+		"HIERARCHICAL",
+		"RELATIVE_DATE",
+
+		// FilterUpdateType Enum
+		"ALL",
+		"REPLACE",
+		"ADD",
+		"REMOVE",
+
+		// PeriodType Enum
+		"YEARS",
+		"QUARTERS",
+		"MONTHS",
+		"WEEKS",
+		"DAYS",
+		"HOURS",
+		"MINUTES",
+		"SECONDS",
+
+		// DateRangeTypeEnum
+		"LAST",
+		"LASTN",
+		"NEXT",
+		"NEXTN",
+		"CURRENT",
+		"TODATE",
+
+		// Marks
+		"clearSelectedMarksAsync()",
+		"getSelectedMarksAsync()",
+		"getPairs()",
+
+		"formattedValue",
+
+		// TableauException
+		"tableauSoftwareErrorCode",
+		"message"
+
+		// ErrorCode Enum
+		"BROWSER_NOT_CAPABLE",
+		"DOWNLOAD_WORKBOOK_NOT_ALLOWED",
+		"FILTER_CANNOT_BE_PERFORMED",
+		"INDEX_OUT_OF_RANGE",
+		"INTERNAL_ERROR",
+		"INVALID_CUSTOM_VIEW_NAME",
+		"INVALID_DATE_PARAMETER",
+		"INVALID_FILTER_FIELDNAME",
+		"INVALID_FILTER_FIELDNAME_OR_VALUE",
+		"INVALID_FILTER_FIELDVALUE",
+		"INVALID_PARAMETER",
+		"INVALID_SELECTION_DATE",
+		"INVALID_SELECTION_FIELDNAME",
+		"INVALID_SELECTION_VALUE",
+		"INVALID_SIZE",
+		"INVALID_SIZE_BEHAVIOR_ON_WORKSHEET",
+		"INVALID_URL",
+		"MISSING_MAX_SIZE",
+		"MISSING_MIN_SIZE",
+		"MISSING_MINMAX_SIZE",
+		"MISSING_RANGEN_FOR_RELATIVE_DATE_FILTERS",
+		"NO_URL_FOR_HIDDEN_WORKSHEET",
+		"NO_URL_OR_PARENT_ELEMENT_NOT_FOUND",
+		"NOT_ACTIVE_SHEET",
+		"NULL_OR_EMPTY_PARAMETER",
+		"SERVER_ERROR",
+		"SHEET_NOT_IN_WORKBOOK",
+		"STALE_DATA_REFERENCE",
+		"UNSUPPORTED_EVENT_NAME",
+		"VIZ_ALREADY_IN_MANAGER"
+	]
+}

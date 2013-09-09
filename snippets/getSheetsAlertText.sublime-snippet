@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+getSheetsAlertText(${1:wheets})$0
+]]></content>
+	<tabTrigger>getSheetsAlertText</tabTrigger>
+	<scope>source.js</scope>
+	<description>getSheetsAlertText(wheets)</description>
+</snippet>

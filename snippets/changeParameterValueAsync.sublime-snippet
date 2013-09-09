@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+changeParameterValueAsync(${1:name}, ${2:value})$0
+]]></content>
+	<tabTrigger>changeParameterValueAsync</tabTrigger>
+	<scope>source.js</scope>
+	<description>workbook.changeParameterValueAsync(name, value)</description>
+</snippet>

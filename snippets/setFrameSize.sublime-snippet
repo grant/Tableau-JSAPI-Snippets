@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+setFrameSize(${1:width}, ${2:height})$0
+]]></content>
+	<tabTrigger>setFrameSize</tabTrigger>
+	<scope>source.js</scope>
+	<description>viz.setFrameSize(width, height)()</description>
+</snippet>

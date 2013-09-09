@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+always(${1:callback})$0
+]]></content>
+	<tabTrigger>always</tabTrigger>
+	<scope>source.js</scope>
+	<description>always(callback)</description>
+</snippet>

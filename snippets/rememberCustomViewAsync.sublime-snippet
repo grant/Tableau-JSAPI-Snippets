@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+rememberCustomViewAsync(${1:customViewName})$0
+]]></content>
+	<tabTrigger>rememberCustomViewAsync</tabTrigger>
+	<scope>source.js</scope>
+	<description>workbook.rememberCustomViewAsync(customViewName)</description>
+</snippet>

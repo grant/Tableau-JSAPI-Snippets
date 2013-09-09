@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+changeSizeAsync(${1:size})$0
+]]></content>
+	<tabTrigger>changeSizeAsync</tabTrigger>
+	<scope>source.js</scope>
+	<description>sheet.changeSizeAsync(size)</description>
+</snippet>

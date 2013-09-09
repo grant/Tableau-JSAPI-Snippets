@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+otherwise(${1:errorCallback})$0
+]]></content>
+	<tabTrigger>otherwise</tabTrigger>
+	<scope>source.js</scope>
+	<description>otherwise(errorCallback)</description>
+</snippet>

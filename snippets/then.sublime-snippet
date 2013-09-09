@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+then(${1:successCallback}, ${2:errorCallback})$0
+]]></content>
+	<tabTrigger>then</tabTrigger>
+	<scope>source.js</scope>
+	<description>then(successCallback, errorCallback)</description>
+</snippet>

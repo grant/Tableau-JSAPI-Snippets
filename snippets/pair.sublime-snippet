@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+Pair(${1:field}, ${2:value})$0
+]]></content>
+	<tabTrigger>Pair</tabTrigger>
+	<scope>source.js</scope>
+	<description>Pair(field, value)</description>
+</snippet>

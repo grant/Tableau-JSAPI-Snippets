@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+showExportPDFDialog()$0
+]]></content>
+	<tabTrigger>showExportPDFDialog</tabTrigger>
+	<scope>source.js</scope>
+	<description>viz.showExportPDFDialog()</description>
+</snippet>

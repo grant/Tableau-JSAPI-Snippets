@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+revertAllAsync()$0
+]]></content>
+	<tabTrigger>revertAllAsync</tabTrigger>
+	<scope>source.js</scope>
+	<description>workbook.revertAllAsync()</description>
+</snippet>

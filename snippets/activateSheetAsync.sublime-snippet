@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+activateSheetAsync(
+	${1:"Sheet Name"}
+);$0
+]]></content>
+	<tabTrigger>activateSheetAsync</tabTrigger>
+	<scope>source.js</scope>
+	<description>workbook.activateSheetAsync(sheetName)</description>
+</snippet>

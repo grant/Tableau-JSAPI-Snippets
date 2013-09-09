@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+removeCustomViewAsync(${1:customViewName})$0
+]]></content>
+	<tabTrigger>removeCustomViewAsync</tabTrigger>
+	<scope>source.js</scope>
+	<description>workbook.removeCustomViewAsync(customViewName)</description>
+</snippet>

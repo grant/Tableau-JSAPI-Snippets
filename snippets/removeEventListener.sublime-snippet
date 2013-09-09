@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+removeEventListener(${1:tableauSoftware.TableauEventName.MARKS_SELECTION}, ${2:onMarksSelection})$0
+]]></content>
+	<tabTrigger>removeEventListener</tabTrigger>
+	<scope>source.js</scope>
+	<description>workbook.removeEventListener(tableauEventName, listener)</description>
+</snippet>

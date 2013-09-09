@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+applyFilterAsync(
+	${1:"Region"},
+	${2:"The Americas"},
+	${3:tableauSoftware.FilterUpdateType.REPLACE}
+);$0
+]]></content>
+	<tabTrigger>applyFilterAsync</tabTrigger>
+	<scope>source.js</scope>
+	<description>activeSheet.applyFilterAsync(field, filter, updateType)</description>
+</snippet>
