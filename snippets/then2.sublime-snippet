@@ -1,10 +1,8 @@
 <snippet>
 	<content><![CDATA[
-then(function (${1:param}) {
-	return ${2:promise};
-\})$0
+then(${1:successCallback}, ${2:errorCallback})$0
 ]]></content>
 	<tabTrigger>then</tabTrigger>
 	<scope>source.js</scope>
-	<description>then(successCallback)</description>
+	<description>then(successCallback, errorCallback)</description>
 </snippet>

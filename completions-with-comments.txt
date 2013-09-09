@@ -6,6 +6,7 @@
 		"getPublishedSheetsInfo()",
 		"getVizs()",
 
+		// Viz Class
 		"getAreTabsHidden()",
 		"getIsToolbarHidden()",
 		"getIsHidden()",
@@ -27,6 +28,7 @@
 		"TOP",
 		"BOTTOM",
 
+		// TableauEventName Enum
 		"CUSTOM_VIEW_LOAD",
 		"CUSTOM_VIEW_REMOVE",
 		"CUSTOM_VIEW_SAVE",
@@ -36,20 +38,25 @@
 		"PARAMETER_VALUE_CHANGE",
 		"TAB_SWITCH",
 
+		// TableauEvent Class, CustomViewEvent Class
 		"getViz()",
 		"getEventName()",
 
+		// FilterEvent Class
 		"getWorksheet()",
 		"getFieldName()",
 		"getFilterAsync()",
 		"getMarksAsync()",
 
+		// ParameterEvent
 		"getParameterName()",
 		"getParameterAsync()",
 
+		// TabSwitchEvent Class
 		"getOldSheetName()",
 		"getNewSheetName()",
 
+		// Workbook Class
 		"getActiveSheet()",
 		"getActiveCustomView()",
 		"getPublishedSheetsInfo()",
@@ -58,13 +65,16 @@
 		"getCustomViewsAsync()",
 		"setActiveCustomViewAsDefaultAsync()",
 
+		// Data Source Class
 		"getIsPrimary()",
 		"getFields()",
 
+		// Field Class
 		"getAggregation()",
 		"getDataSource()",
 		"getRole()",
 
+		// Custom View Class
 		"getName()",
 		"setName()",
 		"getAdvertised()",
@@ -73,21 +83,26 @@
 		"getOwnerName()",
 		"saveAsync()",
 
+		// Sheet Info
 		"getIndex()",
 		"getIsActive()",
 		"getSheetType()",
 		"getSize()",
 
+		// Worksheet Class
 		"getParentDashboard()",
 		"getDataSourcesAsync()",
 
+		// Dashboard Class
 		"getObjects()",
 		"getWorksheets()",
 
+		// DashboardObject Class
 		"getObjectType()",
 		"getDashboard()",
 		"getPosition()",
 
+		// Parameter Class
 		"getCurrentValue()",
 		"getDataType()",
 		"getAllowableValuesType()",
@@ -97,43 +112,53 @@
 		"getStepSize()",
 		"getDateStepPeriod()",
 
+		// FilterOptions Record
 		"isExcludeMode()",
 		"nullOption",
 
+		// RelativeDateFilterOptions Record
 		"anchorDate",
 		"periodType",
 		"rangeType",
 		"rangeN",
 
+		// Filter Class
 		"getFilterType()",
 
+		// NullOption Enum
 		"NULL_VALUES",
 		"NON_NULL_VALUES",
 		"ALL_VALUES",
 
+		// CategoricalFilter Class
 		"getIsExcludeMode()",
 		"getAppliedValues()",
 
+		// QuantitativeFilter Class
 		"getDomainMinValue()",
 		"getDomainMaxValue()",
 		"getMinValue()",
 		"getMaxValue()",
 		"getIncludeNullValues()",
 
+		// RelativeDataFilter Class
 		"getPeriod()",
 		"getRange()",
 		"getRangeN()",
 
+		// FilterType Enum
 		"CATEGORICAL",
 		"QUANTITATIVE",
 		"HIERARCHICAL",
 		"RELATIVE_DATE",
 
+		// FilterUpdateType Enum
 		"ALL",
 		"REPLACE",
 		"ADD",
 		"REMOVE",
 
+		// PeriodType Enum
 		"YEARS",
 		"QUARTERS",
 		"MONTHS",
@@ -143,6 +168,7 @@
 		"MINUTES",
 		"SECONDS",
 
+		// DateRangeTypeEnum
 		"LAST",
 		"LASTN",
 		"NEXT",
@@ -150,15 +176,18 @@
 		"CURRENT",
 		"TODATE",
 
+		// Marks
 		"clearSelectedMarksAsync()",
 		"getSelectedMarksAsync()",
 		"getPairs()",
 
 		"formattedValue",
 
+		// TableauException
 		"tableauSoftwareErrorCode",
 		"message",
 
+		// ErrorCode Enum
 		"BROWSER_NOT_CAPABLE",
 		"DOWNLOAD_WORKBOOK_NOT_ALLOWED",
 		"FILTER_CANNOT_BE_PERFORMED",

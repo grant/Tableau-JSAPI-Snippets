@@ -8,3 +8,21 @@ Reference: http://onlinehelp.tableausoftware.com/v0.0/server/en-us/js_api.htm
 Prepared for TCC 2013
 
 This is updated up to Tableau JSAPI v8.
+
+Install
+-------
+Use git to install the snippets with the following commands:
+
+*MacOSX*
+
+    `git clone git://github.com/granttimmerman/Tableau-JSAPI-Snippets.git ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/Nodejs`
+
+*Windows*
+
+    `git clone https://github.com/granttimmerman/Tableau-JSAPI-Snippets "%APPDATA%\Sublime Text 2\Packages\Nodejs"`
+
+
+Remember
+--------
+
+* Disable this snippet pack when not in use (and enable when in use). It is quite verbose and will disrupt normal javascript work that doesn't not deal with the API. You can disable/enable packages via Tools > Command Pallete > 'Enable Package' | 'Disable Package'
