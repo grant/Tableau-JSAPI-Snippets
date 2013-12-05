@@ -15,11 +15,11 @@ Use git to install the snippets with the following commands:
 
 *MacOSX*
 
-    `git clone git://github.com/granttimmerman/Tableau-JSAPI-Snippets.git ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/Nodejs`
+    git clone git://github.com/granttimmerman/Tableau-JSAPI-Snippets.git ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/Nodejs
 
 *Windows*
 
-    `git clone https://github.com/granttimmerman/Tableau-JSAPI-Snippets "%APPDATA%\Sublime Text 2\Packages\Nodejs"`
+    git clone https://github.com/granttimmerman/Tableau-JSAPI-Snippets "%APPDATA%\Sublime Text 2\Packages\Nodejs"
 
 
 Remember
